@@ -1,0 +1,95 @@
+name: takenow
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  image_downloader:
+    git:
+      url: https://github.com/VikasTailorbird/image_downloader
+  cupertino_icons: ^1.0.6
+  firebase_core: ^3.1.0
+  cloud_firestore: ^5.0.1
+  camera: ^0.11.0+1
+  firebase_auth: ^5.1.0
+  google_sign_in: ^6.2.1
+  cached_network_image: ^3.3.1
+  image_picker: ^1.1.2
+  firebase_storage: ^12.0.1
+  flutter_svg: ^2.0.9
+  emoji_picker_flutter: ^2.2.0
+  image: ^4.2.0
+  vibration: ^1.9.0
+  gallery_saver: ^2.3.0
+  dio: ^5.5.0+1
+  path_provider: ^2.1.3
+  permission_handler: ^11.3.1
+  firebase_messaging: ^15.0.3
+  flutter_typeahead: ^4.0.0
+  rxdart: ^0.27.3
+  fluttertoast: ^8.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "images/mainlogo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  remove_alpha_ios: true
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/mainlogo.png
+    - images/LogoRemoveBackground.png
+    - images/google-logo.png
+    - images/LogoFullText.png
+    - assets/icons/expanddown.svg
+    - assets/icons/darhboard.svg
+    - assets/icons/Camera_light.svg
+    - assets/icons/lightning_duotone_line.svg
+    - assets/icons/Close_round.svg
+    - assets/icons/Import.svg
+    - assets/icons/Send_fill.svg
+    - assets/icons/Close_round.svg
+    - assets/icons/Dowloaded.svg
+    - assets/icons/Upload_sucessfull.svg
+    - assets/icons/Sort_random_light.svg
+    - assets/icons/Chat_light.svg
+    - assets/icons/emoji-add-svgrepo-com 1.svg
+    - assets/icons/User_cicrle_light.svg
+    - assets/icons/Group_light.svg
+    - assets/icons/Refund_back_light.svg
+    - assets/icons/Delete.svg
